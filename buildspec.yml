@@ -1,0 +1,13 @@
+
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo "Install phase (nothing needed for a static site)"
+  build:
+    commands:
+      - echo "Build phase (no compilation needed). Packaging website assets."
+artifacts:
+  files:
+    - '**/*'
